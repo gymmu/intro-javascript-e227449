@@ -50,5 +50,15 @@ function deleteText () {
 
       const newValue = outputValue + "\n" + inputValue
 
-      outputElem.textContent = new Value
+      outputElem.textContent = newValue
+    
   }
+
+
+
+
+  function deleteImage() {
+ 
+    const elemToDeleteText = document.querySelector("#img-to-delete")
+     elemToDeleteText.style.display = "none"
+       }
